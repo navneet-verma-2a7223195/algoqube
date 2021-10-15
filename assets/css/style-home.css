@@ -1,0 +1,697 @@
+/* style-home.css */
+/* Custom CSS for landing page and homepage (signed in)*/
+/* to be included in homepage pages and other(optional) */
+
+a{
+    text-decoration: none !important;
+}
+button{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/* SECTION - 1 */
+
+
+.section-1{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+.txt-sec1{
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.head-sec1{
+    margin-top: 70px;
+}
+
+.desc-sec1{
+    padding: 0px;;
+}
+
+.btn-sec1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-primary{
+    margin-right: 12px;
+}
+
+.button-secondary{
+    margin-left: 12px;
+}
+
+.img-sec1{
+    margin-top: 60px;
+    width: 100%;
+}
+.profesion{
+    height: 40px;
+}
+@media(max-width:1280px){
+    /* Makes section-1 change as per navbar */
+    .txt-sec1{
+        margin-left: 40px;
+    }
+
+}
+
+
+
+
+
+/* SECTION - 2 */
+
+
+.cards{
+    margin:90px 0px 140px 0px;
+}
+
+.card-box{
+    transition: ease-in-out 0.2s;
+    width: 270px;
+    height: 400px;
+}
+
+.card-box h4{
+    padding: 0px 30px;
+}
+
+.card-box:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.685);
+    transition: ease-in-out 0.1s;
+}
+
+.benefit-icon{
+    width: 40%;
+}
+
+
+
+/* SECTION - 3 */
+
+.cards-sec3{
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 140px;
+    transition: ease-in-out 0.1s;
+}
+
+.card-box-sec3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+.card-box-sec3:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.1s;
+}
+
+
+
+
+
+
+/* SECTION - 4 */
+
+
+.cards-sec4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card-box-sec4{
+    background: white;
+    width: 320px;
+    height: 530px;
+    padding: 50px 50px;
+    box-shadow: 0px 4px 8px rgba(153, 153, 153, 0.25);
+    display: flexbox;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.card-box-sec4:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgba(153, 153, 153, 0.25);
+    color: white;
+    background: rgba(0, 0, 0, 0.808);
+    transition: all 0.3s;
+
+}
+
+
+        /*  FOR RESPONSIVE SLIDER*/
+
+        .mentor-slider-mobile{
+            display: none;
+        }
+
+        .mentor-slider-desktop{
+            display: inline;
+        }
+        
+        .mentor-slider-buttons{
+            display: none;
+        }
+
+        #left-slide-arrow, #right-slide-arrow{
+            opacity: 70%;
+            margin: 0px 30px;
+            width: 30px;
+
+        }
+
+        @media(max-width:430px){
+
+            #left-slide-arrow, #right-slide-arrow{
+                margin: 0px 0px;
+            }
+
+        }
+
+        /* MENTOR SLIDER END */
+
+
+
+
+
+
+
+/* SECTION - 5 */
+
+
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    box-shadow: 0px 4px 25px rgba(24, 164, 224, 0.25);
+}
+
+.btn-sec5{
+    padding: 10px 15px;
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(24, 164, 224, 0.25);
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+
+}
+
+.btn-sec5:hover{
+    color: #c60fbd;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.336);
+    transition: ease-in-out 0.1s;
+
+
+}
+
+
+
+
+
+/* SECTION - 6 */
+
+
+.partner-logos{
+    opacity: 50%;
+}
+
+
+/* MEDIA Queries for RESPONSIVE LANDING PAGE */
+
+
+
+@media(max-width:991px){
+
+        /* Sectiom-1 */
+        .section-1{
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+
+        .txt-sec1{
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        
+        .heading{
+            font-size: 36px;
+        }
+        
+        .head-sec1{
+            margin-top: 0px;
+            text-align: center;
+        }
+
+        .desc-sec1{
+            text-align: center;
+            overflow: hidden;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .btn-sec1{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            flex-direction: column;
+        }
+
+        .button-primary{
+            margin-right: 0px;
+        }
+        
+        .button-secondary{
+            margin-left: 0px;
+        }
+
+        .img-sec1{
+        margin-top: 0px;
+        }
+
+
+
+
+        /* Section -2 */
+
+
+
+
+
+        /* SECTION - 3 */
+
+        .section-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cards-sec3{
+            padding-top: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+
+
+
+
+
+
+        /* SECTION - 4 */
+
+        .cards-sec4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-box-sec4{
+            margin: 10px 0px;
+        }
+
+                /*  FOR RESPONSIVE SLIDER*/
+
+                .mentor-slider-desktop{
+                    display: none;
+                }
+
+                .mentor-slider-mobile{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .mentor-slider-buttons{
+                    display: inline;
+                }
+
+                    /* FOR SLIDER FUNCTION */
+
+                        /* CARDS */
+
+                        #mentor-card-1{
+                            display: none;
+                        }
+
+                        #mentor-card-2{
+                            display: inline;
+                        }
+
+                        #mentor-card-3{
+                            display: none;
+                        }
+
+                        /* BUTTONS */
+
+                        #mentor-slide-button-1{
+                            transform: scale(0.9);
+                        }
+
+                        #mentor-slide-button-2{
+                            transform: scale(1.4);
+                        }
+
+                        #mentor-slide-button-3{
+                            transform: scale(0.9);
+                        }
+                        .profesion{
+                            height: auto;
+                        }
+                        
+}
+
+/* Media Queries END */
+
+/* LANDING OPAGE EMD */
+
+
+
+
+
+
+
+
+
+
+/* Homepage                   logged                In */
+
+
+
+
+
+
+        .section-title{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .view-more-1 h6{
+            font-weight: bold;
+        }
+
+        .session-cards .view-more-2{
+            display: none;
+        }
+
+        
+
+
+
+/*        SECTION -  1 ALT      */
+
+
+.section-1-alt{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.card-box-sec-1-alt{
+    position: relative;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+}
+
+.card-box-sec-1-alt:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.2s;
+    background-color: none;
+}
+.first{
+    background-image: url("https://nyabazar.com/assets/img/mentor-card-bg.svg");
+}
+.second{
+    background-image: url("https://nyabazar.com/assets/img/compare-card-bg.svg");
+}
+.third{
+    background-image: url("https://nyabazar.com/assets/img/cv-card-bg.svg");
+}
+.fourth{
+    background-image: url("https://nyabazar.com/assets/img/job-card-bg.svg");
+}
+.card-text-sec-1-alt{
+    margin: 0;
+    padding: 0;
+    height: 105px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.marg{
+    margin-top: 1rem;
+}
+.sty{
+    width: 65%;
+}
+
+/*         SECTION - 2   ALT        */
+
+.mentor-speciality-badge{
+    font-size: 10px;
+    color: #4B4B4B;
+    background: #F5F5F5;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 5px 10px;
+    width: max-content;
+}
+
+
+
+/*            SECTION - 3  ALT           */
+
+.session-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mentor-session-box{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    padding: 10px 10px;
+    width: 100%; 
+}
+
+.session-date-display{
+    background: #8baafb1a;
+    border-radius: 2px;
+    color: #8BAAFB;
+}
+
+.session-time-display{
+    background: #ff8e4f1a;
+    border-radius: 2px;
+}
+
+.session-live-display{
+    background: #eb57571a;
+    color: #eb5757;
+    border-radius: 2px;
+}
+
+.session-cancel-display{
+    background: #9494941a;
+    color: #949494;
+    border-radius: 2px;
+}
+
+.session-date-display h6, .session-time-display h6, .session-live-display h6, .session-cancel-display h6{
+    margin-bottom: 0px;
+
+}
+
+.mentor-name{
+    color: #c60fbd;
+    font-weight: 600;
+}
+
+.session-notified-button{
+    background: #c60fbd;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    transition: all 0.3s;
+}
+
+.session-notified-button:hover{
+    background: white;
+    color: #c60fbd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.session-notified-button:hover img{
+    filter: invert(25%) sepia(57%) saturate(6778%) hue-rotate(183deg) brightness(90%) contrast(50%);
+}
+
+.illustration-mentor-postponed{
+    filter: contrast(0%);
+}
+
+
+
+
+/* SECTION - 4 */
+
+/* SIMILAR JOBS SECTION */
+
+.sec-jobs .card{
+    border: 3px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.sec-jobs .card p.rounded-pill{
+    background-color: #E0E0E0;
+    font-size: 12px;
+}
+
+
+/*            SECTION - 6             */
+
+.btn-sec-6-alt{
+    margin: 10px 0px;  
+    padding: 14px 30px;
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(24, 164, 224, 0.25);
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+
+}
+
+.btn-sec-6-alt:hover{
+    color: #c60fbd;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.336);
+    transition: ease-in-out 0.1s;
+}
+
+.job-seeker{
+    border-right: 2px solid #FFFFFF40;
+
+}
+
+.job-seeker, .employer{
+    padding: 50px 80px;
+}
+
+
+/*               SECTION - 7                  */
+
+.section-7-content-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.txt-sec-7-alt{
+    margin-left: 20px ;
+}
+
+.sec-7-button{
+    float: right;
+}
+
+.btn-sec-7-alt{
+    color: #ffffff;
+    background: #c60fbd;
+    box-shadow: 0px 8px 16px rgba(24, 164, 224, 0.25);
+    border-radius: 8px;
+    padding: 12px 36px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+
+}
+
+.btn-sec-7-alt:hover{
+    color: #c60fbd;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+}
+
+
+@media(max-width:991px){
+    
+
+    .card-text-sec-1-alt{
+        height: auto;
+        /* background-size: contain; */
+    }
+    .marg{
+        margin-top: 0;
+    }
+    .section-title .view-more-1{
+        display: none;
+    }
+
+    .session-cards .view-more-2{
+        display: inline;
+
+    }
+
+
+    .job-seeker{
+        border-right: none;
+        border-bottom: 2px solid #ffffff40;
+    }
+    
+    .job-seeker, .employer{
+        padding: 50px 0px;
+    }
+
+    /*               SECTION - 3                  */
+
+    .session-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mentor-session-box{
+        width: auto;
+        margin: 10px 0px;
+    }
+
+    .card-mid{
+        margin: 0px;
+    }
+
+    /*               SECTION - 7                  */
+
+    .section-7-content-box{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 40px;
+        text-align: center;
+    }
+
+    .txt-sec-7-alt{
+        margin-left: 0px ;
+        margin: 25px 0px;
+    }
+    
+
+}

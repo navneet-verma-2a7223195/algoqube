@@ -1,0 +1,426 @@
+*{
+    font-family: 'Montserrat','Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    /* outline: 0;
+    border: 0; */
+
+}
+
+button:focus, img:focus{
+    outline: 0;
+
+}
+
+/* COMPONENTS */
+
+
+                /* FONT SIZES */
+
+.font-size-s{
+    font-size: 12px;
+}
+
+.font-size-xs{
+    font-size: 10px;
+}
+
+
+                /* FONTS */
+
+.font-helvetica{
+    font-family: Helvetica;
+}
+
+
+                /* TEXT COLORS */
+
+.text-nb-blue{
+
+    color: #d168e6;
+}
+
+.text-nb-blue-alt{
+    color: #d168e6;
+}
+
+.text-nb-dark-blue{
+    color: #00709F;
+}
+
+.text-nb-light-blue{
+    color: #E9F7FF;
+}
+
+
+.text-nb-orange{
+    color: #F7A70D;
+}
+
+.text-nb-muted{
+    color: #6A6565;
+}
+
+.text-nb-muted-2{
+    color: #828282;
+}
+
+.text-nb-light{
+    color: #ABABAB;
+}
+
+.text-nb-green{
+    color: #27AE60;
+}
+
+.text-nb-red{
+    color: #EB5757;
+}
+
+
+                /* BACKGROUND COLORS */
+
+.bg-nb-blue{
+    background-color: #c60fbd;
+}
+
+.bg-nb-blue-2{
+    background-color: #c60fbd;
+}
+
+.bg-nb-light-blue{
+    background-color: #E9F7FF;
+}
+
+.bg-nb-grad-blue{
+    background: linear-gradient(252.51deg, #bd37bb  8.87%, rgba(15, 52, 183, 0.85) 92.54%);
+}
+
+.bg-nb-orange{
+    background-color: #F7A70D;
+}
+
+.bg-nb-green{
+    background-color: #27AE60;
+}
+
+.bg-nb-red{
+    background-color: #EB5757;
+
+}
+
+
+
+/* TEXT CONTETNTS */
+
+.heading{
+    /* makes Section 1 heading responsive */
+
+    text-align: left;
+    font-size: 64px;
+}
+
+.description{
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+
+
+.font-weight-semibold{
+    font-weight: 600;
+}
+
+.font-weight-medium{
+    font-weight: 500;
+}
+
+.new-pad{
+    padding: 0 140px;
+}
+@media(max-width:991px){
+    
+    .heading{
+        font-size: 36px;
+    }
+.new-pad{
+    padding: 0 60px;
+}
+}
+
+/* BUTTONS */
+
+.button-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: white;
+    border: 2px solid #d168e6;
+    background: #d168e6;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px rgba(24, 164, 224, 0.25);
+    transition: ease-in-out 0.2s;
+}
+
+.button-primary:hover{
+    color: white;
+    border-color: white;
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.25);
+    transition: ease-in-out 0.1s;
+}
+
+.button-secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: #c60fbd;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 0px 8px 16px rgba(24, 164, 224, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.button-secondary:hover{
+    border-color:  #bd37bb;
+    transition: ease-in-out 0.2s;
+}
+
+
+/* BADGES */
+
+
+
+
+
+/* CARDS */
+
+.card-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 320px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px rgba(87, 87, 87, 0.05);
+}
+
+.card-info p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cards{
+    flex-direction: row;
+    justify-content: center;
+}
+
+    /* hamburgre menu */
+
+    @media(max-width:991px){
+            
+        .button-primary{
+            width: 100%;
+            height: 50px;
+            font-size: large;
+        }
+
+        .button-secondary{
+            width: 100%;
+            height: 50px;
+            font-size: large;
+
+        }
+
+        .cards{
+            flex-direction: column;
+            align-items: center;    
+        }
+
+        .card-box{
+            max-width: 250px;
+            min-height: 320px;
+            background: rgb(255, 255, 255);
+            margin-top: 8px;
+            margin-bottom: 8px;
+            text-align: center;
+            box-shadow: 0px 8px 16px rgba(87, 87, 87, 0.05);
+        }
+    }
+
+/* PAGINATION */
+
+.nb-pagination .page-link{
+    color: #bd37bb;
+}
+
+.nb-pagination .disabled .page-link{
+    opacity: 40%;
+}
+
+
+.nb-pagination .page-link:hover{
+    background-color: white;
+    border-color: #bd37bb;
+}
+
+.nb-pagination .page-link:focus{
+    box-shadow: 0px 0px 2px #1676b26e;
+
+}
+
+.nb-pagination .page-item.active .page-link{
+    color: white;
+    background-color: #bd37bb;
+}
+
+.nb-pagination img{
+    width: 14px;
+}
+
+.pg-next img{
+    transform: rotateY(180deg);
+}
+
+
+
+/* MODAL */
+
+
+/* MODAL */
+
+.modal-header{
+    border-bottom: 1px solid #00000067;
+}
+
+.modal-footer{
+    border-top: 1px solid #00000067;
+}
+
+.modal-header .close-btn{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.close-btn img{
+    width: 32px;
+}
+
+    /* delete */
+
+    .delete-modal-group button{
+        outline: 0;
+        border: 0;
+    }
+
+    .delete-modal-group button:first-child{
+        background-color: white;
+        color: #2e2e2e;
+        border: 1px solid #636363;
+    }
+
+    .delete-modal-group button:last-child{
+        background-color: #EB5757;
+        color: white;
+        border: 1px solid #EB5757;
+    }
+
+
+
+/* TOASTS */
+
+.toast-nb{
+    box-shadow: none;
+}
+
+.toast-wrap{
+    z-index: 99999999;
+    position: fixed;
+    top: 10;
+    right: 10px;
+}
+
+.toast-nb .toast-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toast-nb .toast-body button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+
+    /* variants */
+
+        /* normal */
+        .toast-nb-normal{
+            background-color: white;
+            border: 1px solid #c9c9c9;
+        }
+
+        .toast-nb-normal .toast-body button img{
+            filter: grayscale(100) opacity(0.5);
+        }
+    
+
+        /* green */
+
+        .toast-nb-green{
+            background-color: #27ae5f;
+            color: white;
+        }
+
+        .toast-nb-green .toast-body button img{
+            filter: brightness(0) opacity(0.5);
+        }
+
+        /* red */
+
+        .toast-nb-red{
+            background-color: #EB5757;
+            color: white;
+        }
+
+        .toast-nb-red .toast-body button img{
+            filter: brightness(0) opacity(0.5);
+        }
+
+
+.ellipsis{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fix-height{
+    height: 65px;
+    overflow: hidden;
+}
+.fix-height3{
+    height: 105px;
+    overflow: hidden;
+}
+@media(max-width:768px){
+    
+.fix-height{
+    height: auto;
+}
+.fix-height3{
+    height: auto;
+}
+}
+

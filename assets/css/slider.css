@@ -1,0 +1,82 @@
+.MultiCarousel{ 
+    float: left;
+    overflow: hidden;
+    /* padding:0px  40px; */
+    width: 100%;
+    position:relative;
+}
+
+
+.MultiCarousel .MultiCarousel-inner{
+    transition: 1s ease all;
+    float: left;
+    /* padding: 0px 30px; */
+}
+
+
+.MultiCarousel .MultiCarousel-inner .item{
+    float: left;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst{
+    position:absolute;
+    border-radius:50%;
+    top:25%;
+
+}
+
+.MultiCarousel .leftLst{
+    left:0px;
+    position: absolute;
+
+}
+
+.MultiCarousel .rightLst{
+    right:0;
+}
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over{
+    pointer-events: none;
+    display: none;
+}
+
+
+
+
+
+/* Custom CSS */
+
+
+.button-slider{
+    width: 48px;
+    opacity: 90%;
+    transition: all 0.2s;
+}
+
+.button-slider:hover{
+    opacity: 100%;
+    transition: all 0.1s;
+}
+
+.button-slider:focus{
+    outline: none;
+}
+
+.item{
+    padding: 10px 10px ;
+    height: auto;
+}
+
+.slider-card-box{
+    min-height: fit-content;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    height: max-content;
+    max-height: 300px;
+}
+
+.slider-card-thumbnail{
+    height: 150px;
+    width: 100%;
+}
+
